@@ -1,0 +1,89 @@
+body
+{
+    background-color: #3B9BF0  ;
+}
+.main
+{
+  display: flex;
+  margin: 1%;
+  padding: 1%;
+}
+
+
+.left
+{
+  width : 25%;
+  height: 25%;
+  margin: 1%;
+  padding: 1%;
+  border: 2px solid yellow;
+  border-radius: 6%;
+  text-align: center;
+
+}
+.right
+{
+  width: 70%;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid blue;
+  border-radius: 10%;
+}
+
+tr,td,th
+{
+  margin: 3%;
+  padding: 1%;
+border : 1px solid blue;
+text-align: center;
+border-radius: 4px;
+}
+
+table
+{
+  border: 2px solid #3A949C   ;
+  width:90%;
+  margin-left: 4%;
+}
+
+
+
+@media only screen and (min-width : 320px) and (max-width:480px)
+{
+  .parent
+  {
+    display: flex;
+    flex-wrap: wrap;
+
+
+  }
+  .left
+  {
+    width: 90%;
+
+  }
+  .right
+  {
+   width: 90%;
+}
+
+}
+
+@media only screen and (min-width : 768px) and (max-width:1024px)
+{
+  .parent
+  {
+    flex-wrap: wrap;
+  }
+  .left
+  {
+    width:100%;
+    flex-wrap:wrap;
+  }
+  .right
+  {
+    width:50%;
+    flex-wrap:wrap;
+  }
+
+}

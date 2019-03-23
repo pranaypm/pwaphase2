@@ -1,0 +1,50 @@
+header
+{
+  background: #0B94AC  ;
+  color: white;
+  text-align: center;
+  margin: 1%;
+  padding: 1%;
+  font-size: 30px;
+  font-weight: 700;
+  border: 1px solid #87F743    ;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px black;
+}
+a img
+{
+  display: block;
+  margin: 1% 0 0 auto;
+  padding: 1%;
+  width: 15%;
+  height: 30%;
+  background-color: #35CFEE  ;
+  border: 1px solid #80FA14  ;
+  border-radius: 50px;
+
+}
+
+
+.child img
+{
+width: 200px;
+height: 210px;
+}
+.parent
+{
+display: flex;
+}
+
+
+
+.child
+{
+  width: 25%;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 25%;
+  margin: 1%;
+  padding: 1%;
+  background-color: #51BDE6 ;
+
+}
